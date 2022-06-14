@@ -86,10 +86,10 @@
             app:destination="@id/notesV2Fragment" />
     </fragment>
     <fragment
-        android:id="@+id/FragmentAudio"
-        android:name="com.mirea.ivanovma.mireaproject.ui.audio.FragmentAudio"
+        android:id="@+id/fragmentAudio"
+        android:name="com.mirea.ivanovma.mireaproject.ui.audio.DictaphoneFragment"
         android:label="Диктафон"
-        tools:layout="@layout/fragment_retrofit" />
+        tools:layout="@layout/fragment_dictaphone" />
 
     <fragment
         android:id="@+id/notesTalkerFragment"

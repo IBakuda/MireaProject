@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.player.MusicPlayer"
-    android:background="#c6c7ab">
+    tools:context=".ui.player.MusicPlayer">
 
     <ImageView
         android:id="@+id/imageView10"
@@ -16,8 +15,6 @@
         android:src="@drawable/img_music"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
-
 
     <Button
         android:id="@+id/playButton"
